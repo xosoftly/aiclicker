@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clicker Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Clicker Game</h1>
+
+    <div class="stats">
+      <p>Score: <span id="score">0</span></p>
+      <p>Per click: <span id="perClick">1</span></p>
+      <p>Auto clickers: <span id="autoCount">0</span></p>
+    </div>
+
+    <button id="clickBtn" class="big-btn">Click me</button>
+    <div id="floatingText" class="floating-text"></div>
+
+    <div class="shop">
+      <h2>Shop</h2>
+      <button id="clickUpgradeBtn" class="shop-btn"></button>
+      <button id="autoUpgradeBtn" class="shop-btn"></button>
+      <button id="resetBtn" class="reset-btn">Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
